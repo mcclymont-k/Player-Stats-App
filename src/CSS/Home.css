@@ -1,0 +1,25 @@
+.homeContainer {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.textContainer {
+  width: 60vw;
+}
+
+.textBlock {
+  font-size: 15px;
+  color: #185566;
+  margin-top: 30px
+}
+
+.textSubTitle {
+  color: #964848
+}
+
+.jsonImage {
+  display: grid;
+  justify-items: center;
+  margin: 20px
+}

@@ -1,0 +1,19 @@
+.searchBar {
+  width:400px
+}
+
+.searchContainer {
+  display: grid;
+  align-items: center;
+  justify-items:center;
+  height: 100px
+}
+
+.playerCardLink {
+  text-decoration: none
+}
+
+.playerCardLinksContainer {
+  display: grid;
+  justify-content: center;
+}

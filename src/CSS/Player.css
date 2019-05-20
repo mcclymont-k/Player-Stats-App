@@ -1,0 +1,29 @@
+.deleteButton {
+  border: none;
+  background-color: #185566;
+  border-radius: 7px;
+  color: #c9c5ba;
+  padding: 10px;
+}
+
+.deleteButton:hover {
+  cursor: pointer;
+  color: white;
+}
+
+.buttonContainer {
+  display: grid;
+  justify-items: center;
+}
+
+.deletedPopUp {
+  background-color: #ebbab9;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+.playerContainer {
+  display: grid;
+  justify-content: center;
+}

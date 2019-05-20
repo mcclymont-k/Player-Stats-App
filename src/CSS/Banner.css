@@ -1,0 +1,36 @@
+
+.bannerButton {
+  border: none;
+  padding: 10px 30px;
+  margin: 5px;
+  border-radius: 2px;
+  border: 1px solid #185566;
+  color: #c9c5ba;
+  transition: 0.2s;
+  text-decoration: none;
+  text-align: center;
+  color: #185566;
+}
+
+.bannerButton:hover {
+  color: white;
+  cursor: pointer;
+  background-color: #97b1a6
+}
+
+.bannerContainer {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: 100vw
+}
+
+.buttonContainer {
+  display: grid;
+  grid-auto-flow: column;
+}
+
+.bannerHeader {
+  color: #185566;
+}

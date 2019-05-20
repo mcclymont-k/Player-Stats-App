@@ -1,0 +1,53 @@
+.uploadContainer {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+.fileInput {
+  border: 1px solid grey;
+  padding:50px
+}
+
+.uploadButton {
+  border: none;
+  background-color: #185566;
+  border-radius: 7px;
+  color: #c9c5ba;
+  padding: 10px;
+  transition: all 0.1s ease;
+  cursor: pointer;
+  margin-top: 10px
+}
+
+.successBanner {
+  background-color: #698996;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  width:100%;
+  color: white
+}
+
+.errorBanner {
+  background-color: #964848;
+  font-size: 15px;
+  padding: 10px;
+  text-align: center;
+  width:100%;
+  color: white
+}
+
+
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  transform: scale(1);
+}
+
+button:active {
+  transform: scale(1.2);
+}
