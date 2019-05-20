@@ -16,3 +16,8 @@ $ npm start
 
 
 ```
+## API Setup
+
+Make sure to setup the api.js.
+This fron end application is set to run with:
+https://github.com/mcclymont-k/Player-Stats-API
